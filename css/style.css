@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.container1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.nav-link {
+  padding: 0 !important;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+}
+
+.main__name {
+  font-weight: 700;
+  line-height: 59px;
+  font-size: 47px;
+  width: 220px;
+}
+
+.main__surname {
+  font-size: 18px;
+  line-height: 22px;
+  width: 200px;
+}
+
+.main__language {
+  transform: rotate(-90deg);
+
+}
+
+.language {
+  border: none;
+  outline: none;
+  background-color: transparent;
+
+}
+
+.language__active {
+  color: #d1d1d1;
+}
+
+.bashara {
+  height: 450px;
+  margin-bottom: 105px;
+}
+
+.color {
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 506px;
+
+}
+
+.about__me {
+  margin-top: 105px;
+  text-align: center;
+  height: 218px;
+  width: 100%;
+  line-height: 22px;
+  font-size: 18px;
+  padding-top: 120px;
+}
+
+.about {}
+
+.description {
+  padding-top: 18px;
+}
+
+.skills {
+  text-align: center;
+  margin-top: 91px;
+  
+
+}
+
+.apps {
+ margin: 70px 0 110px 0;
+
+}
+
+.img {
+  width: 90px;
+  height: 89px;
+  border-radius: 8px;
+}
+.name__app{
+  height: 30px;
+width: 70px;
+font-size: 14px !important;
+margin: 0 auto;
+padding-top:25px;
+color: #828282;
+padding-bottom: 25px;
+}
+.portfolio{
+  padding: 113px 0 47px 0; 
+}
+.color2{
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 2650px;
+}
+.port-img{
+  width: 100%;
+  height: 600px;
+}
+.p-description{
+  text-align: center;
+  margin: 44px 0 99px 0;
+}
+.footer{
+  height: 480px;
+  text-align: center;
+}
+.footer__contacts{
+  margin: 114px 0 20px 0;
+}
+.footer__description{
+ 
+}
+.btn-1{
+  background-color: #070707 !important;
+  outline: none;
+  border-radius: 50px !important;
+  color: #fff !important;
+  width: 180px;
+  margin:30px 0 80px 0;
+}
+.logos{
+  display: flex;
+  text-align: center;
+ justify-content: center;
+
+ margin-bottom: 46px;
+  
+}
+.fa-linkedin:before, 
+.fa-instagram-square:before,
+.fa-behance-square:before,
+.fa-dribbble-square:before{
+font-size: 40px;
+}
+.last{
+  margin-bottom: 0 !important;
+
+}
+.fab, .far {
+  padding: 0 15px !important;
+}
+.pagination{
+justify-content: center;
+}
+@media (max-width:378px) {
+ .bashara{
+  height: 150px !important;
+ } 
+}
+@media (max-width:435px) {
+  .nav-link{
+    font-size: 14px !important;
+  }
+  coo2
+  .main__name{
+    font-size: 21px;
+    line-height: 18px;
+  }
+  .main__language{
+    display: none;
+  }
+  .main__surname{
+    text-align: right;
+    font-size: 15px !important;
+  }
+  .bashara{
+    height: 150px !important;
+    margin-bottom: 30px !important;
+  }
+  .port-img{
+    height: 190px !important;
+  }
+  .p-description{
+    font-size: 12px !important;
+    margin: 15px 0 50px 0;
+  }
+  .color2{
+    height: 1130px !important;
+  }
+  .footer__contacts{
+    margin: 100px 0 20px 0;
+  }
+  .btn-1{
+    margin: 20px 0 60px 0;
+  }
+  .footer{
+    height: 450px;
+  }
+  .img{
+    border-radius: 8px;
+    width: 70px;
+    height: 70px;
+  }
+}
+@media (max-width:768px) {
+  .nav-link{
+    font-size: 14px !important;
+  }
+  .main__name{
+    font-size: 21px;
+    line-height: 18px;
+  }
+  .main__language{
+    display: none;
+  }
+  .main__surname{
+    text-align: right;
+    font-size: 15px !important;
+  }
+  .bashara{
+    height: 300px;
+    margin-bottom: 30px !important;
+  }
+  .port-img{
+    height: 350px;
+  }
+  .color2{
+    height: 1830px;
+  }
+}
